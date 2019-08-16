@@ -469,3 +469,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Xiaomi Parts
+PRODUCT_PACKAGES += \
+    XiaomiParts
