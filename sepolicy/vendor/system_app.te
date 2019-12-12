@@ -1,7 +1,6 @@
 allow system_app kcal_dev:dir search;
 allow system_app kcal_dev:file rw_file_perms;
 allow system_app sysfs_vibrator:dir search;
-allow system_app sysfs_vibrator:file rw_file_perms;
 allow system_app sysfs_backlightdim:dir search;
 allow system_app sysfs_backlightdim:file rw_file_perms;
 allow system_app sysfs_fpsinfo:file { open read getattr write };
@@ -12,3 +11,5 @@ allow system_app sysfs_torch:file { open getattr write };
 allow system_app sysfs_fastcharge:file { open read getattr write };
 allow system_app sysfs_zram:dir search;
 allow system_app sysfs_zram:file r_file_perms;
+
+set_prop(system_app, hall_wakeup_prop);

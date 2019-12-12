@@ -61,3 +61,8 @@ vendor.powerhal.audio                   u:object_r:power_prop:s0
 vendor.powerhal.init                    u:object_r:power_prop:s0
 vendor.powerhal.rendering               u:object_r:power_prop:s0
 vendor.powerhal.state                   u:object_r:power_prop:s0
+# MPCTL
+sys.post_boot.parsed                u:object_r:vendor_mpctl_prop:s0
+
+# Hall wakeup
+vendor.persist.hall_wakeup          u:object_r:hall_wakeup_prop:s0
