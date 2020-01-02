@@ -12,4 +12,4 @@ allow system_app sysfs_fastcharge:file { open read getattr write };
 allow system_app sysfs_zram:dir search;
 allow system_app sysfs_zram:file r_file_perms;
 
-set_prop(system_app, hall_wakeup_prop);
+set_prop(system_app, system_prop);
