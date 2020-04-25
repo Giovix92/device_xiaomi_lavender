@@ -15,11 +15,11 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 # Inherit dalvik from native
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
-# Inherit some common Corvus stuff.
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
+# Inherit some common RevengeOS stuff.
+$(call inherit-product, vendor/revengeos/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := du_lavender
+PRODUCT_NAME := revengeos_lavender
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
@@ -31,7 +31,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="lavender-user 10 QKQ1.190910.002 20.3.19 release-key"
 
 BUILD_FINGERPRINT := "google/crosshatch/crosshatch:10/QQ2A.200405.005/6254899:user/release-keys"
-
-DU_BUILD_TYPE := OFFICIAL
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
