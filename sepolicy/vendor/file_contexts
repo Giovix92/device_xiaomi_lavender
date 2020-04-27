@@ -39,5 +39,10 @@
 # Power HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power@1\.3-service\.pixel-libperfmgr                 u:object_r:hal_power_default_exec:s0
 
+# Tap to Wake
+/sys/touchpanel/double_tap                      u:object_r:sysfs_tap_to_wake:s0
+/proc/tp_gesture                                u:object_r:sysfs_tap_to_wake:s0
+
+
 # Thermal
 /data/vendor/thermal(/.*)?                      u:object_r:thermal_data_file:s0
