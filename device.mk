@@ -431,6 +431,7 @@ PRODUCT_PACKAGES += \
 # Update this list with what each blob is actually for
 # libstdc++: camera.sdm660
 PRODUCT_PACKAGES += \
+    libgui_vendor \
     libstdc++.vendor \
     vndk-ext \
     vndk_package
