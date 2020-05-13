@@ -1024,7 +1024,6 @@ vendor/lib/libmmcamera_lavender_s5kgm1_sunny_ii.so
 vendor/bin/hvdcp_opti
 
 # Consumerir
-vendor/lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.sdm660.so
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sdm660.so
 
 # Display calibration
@@ -1073,11 +1072,7 @@ vendor/firmware/fpctzappfingerprint.b07
 vendor/firmware/fpctzappfingerprint.mdt
 
 # Fingerprint sensor
--vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
--vendor/app/QFingerprintService/QFingerprintService.apk
 vendor/bin/qfp-daemon
-vendor/etc/permissions/com.fingerprints.extension.xml
-vendor/framework/com.fingerprints.extension.jar
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.sdm660.so
 vendor/lib64/hw/fingerprint.fpc.default.so
@@ -1217,7 +1212,7 @@ vendor/lib64/sensor_calibrate.so
 # Soter - lavender
 -app/SoterService/SoterService.apk
 
-# Thermal Configs - lavender 11.0.4.0
+# Thermal Configs - lavender 11.0.5.0
 vendor/bin/thermal-engine
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
@@ -1227,12 +1222,6 @@ vendor/etc/thermal-engine-camera.conf
 vendor/etc/thermal-engine-map.conf
 vendor/etc/thermal-engine-normal.conf
 vendor/etc/thermal-engine.conf
-
-# UBWC
-vendor/lib/libstreamparser.so
-vendor/lib/libUBWC.so
-vendor/lib64/libstreamparser.so
-vendor/lib64/libUBWC.so
 
 # Wifi
 vendor/bin/cnss-daemon
